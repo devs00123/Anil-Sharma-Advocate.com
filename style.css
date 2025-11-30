@@ -94,15 +94,17 @@ header .logo h1 {
 
 /* 2. Hero Section */
 .hero {
-    background: url('images/hero-background.jpg') no-repeat center center/cover; /* Replace with your image path */
+    background: url('background.jpg') no-repeat center center/cover; /* Replace with your image path */
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
     height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    color: #0C2B4E;
     position: relative;
-}
+}    
 
 .hero::before {
     content: "";
@@ -111,7 +113,7 @@ header .logo h1 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #b3b3b3; /* Dark overlay */
+    /*background-color: #b3b3b3; /* Dark overlay */
 }
 
 .hero-content {
