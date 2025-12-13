@@ -295,7 +295,7 @@ section {
 }
 
 .lawyer-image {
-    width: 100%;
+   /* width: 100%;*/
     height: 100%;
     object-fit: cover;
     object-position: center;
@@ -1201,4 +1201,5 @@ section {
         font-size: 1.3rem;
     }
 }
+
 
